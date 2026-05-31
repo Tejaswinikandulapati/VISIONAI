@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VISIONAI</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">
+VISIONAI
+</div>
+
+<nav>
+
+<a href="#features">Features</a>
+
+<a href="#roles">Roles</a>
+
+<a href="#about">About</a>
+
+<a href="#contact">Contact</a>
+
+<button class="nav-btn">
+Get Started
+</button>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="badge">
+🚀 AI Powered Software Career Platform
+</div>
+
+<h1>
+Build Your Future
+In Technology
+With VISIONAI
+</h1>
+
+<p>
+Explore software careers, learn in-demand skills,
+build projects, prepare for interviews,
+and grow with AI-powered guidance.
+</p>
+
+<div class="hero-buttons">
+
+<button class="primary-btn">
+Start Free
+</button>
+
+<button class="secondary-btn">
+Explore Roles
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section id="features" class="section">
+
+<h2>Features</h2>
+
+<div class="grid">
+
+<div class="card">
+💼
+<h3>Career Guidance</h3>
+<p>Discover software career paths.</p>
+</div>
+
+<div class="card">
+📄
+<h3>Resume Builder</h3>
+<p>Create ATS friendly resumes.</p>
+</div>
+
+<div class="card">
+🎤
+<h3>Interview Preparation</h3>
+<p>Practice technical interviews.</p>
+</div>
+
+<div class="card">
+🚀
+<h3>Project Ideas</h3>
+<p>Industry-ready project suggestions.</p>
+</div>
+
+<div class="card">
+📚
+<h3>Learning Roadmaps</h3>
+<p>Step-by-step learning plans.</p>
+</div>
+
+<div class="card">
+🤖
+<h3>AI Assistant</h3>
+<p>Career support anytime.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ROLES -->
+
+<section id="roles" class="section">
+
+<h2>Software Career Paths</h2>
+
+<div class="grid">
+
+<div class="card">💻 Software Engineer</div>
+
+<div class="card">🎨 Frontend Developer</div>
+
+<div class="card">⚙️ Backend Developer</div>
+
+<div class="card">🚀 Full Stack Developer</div>
+
+<div class="card">🤖 AI Engineer</div>
+
+<div class="card">📊 Data Analyst</div>
+
+<div class="card">☁️ Cloud Engineer</div>
+
+<div class="card">🔐 Cyber Security</div>
+
+<div class="card">📱 Mobile Developer</div>
+
+<div class="card">🧪 QA Engineer</div>
+
+<div class="card">🔄 DevOps Engineer</div>
+
+<div class="card">🎮 Game Developer</div>
+
+</div>
+
+</section>
+
+<!-- DASHBOARD -->
+
+<section class="section">
+
+<h2>VISIONAI Dashboard</h2>
+
+<div class="grid">
+
+<div class="card">
+📈
+<h3>Learning Progress</h3>
+<p>Track your skills.</p>
+</div>
+
+<div class="card">
+📄
+<h3>Resume Score</h3>
+<p>ATS optimization.</p>
+</div>
+
+<div class="card">
+🎯
+<h3>Interview Readiness</h3>
+<p>Measure preparation level.</p>
+</div>
+
+<div class="card">
+🚀
+<h3>Project Tracker</h3>
+<p>Manage projects.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="section">
+
+<h2>About VISIONAI</h2>
+
+<div class="card">
+
+<p>
+
+VISIONAI is an AI-powered technology career platform designed to help students, graduates, freshers, and professionals build successful careers in the software industry.
+
+Our mission is to simplify career growth by providing personalized guidance, industry-relevant learning roadmaps, interview preparation resources, project recommendations, and skill development strategies.
+
+Whether you want to become a Software Engineer, Frontend Developer, Backend Developer, Full Stack Developer, AI Engineer, Data Analyst, Cloud Engineer, Cyber Security Specialist, DevOps Engineer, or Mobile App Developer, VisionAI helps you understand the required skills, technologies, career paths, and growth opportunities.
+
+VISIONAI empowers users to learn smarter, build stronger portfolios, prepare confidently for interviews, and stay updated with the latest technology trends. By combining career guidance, practical learning resources, and AI-powered assistance, VisionAI serves as your trusted companion throughout your professional journey.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<div class="grid">
+
+<div class="card">
+
+📧
+
+<h3>Email Support</h3>
+
+<p>
+@VISIONAICareerGuidance.com
+</p>
+
+</div>
+
+<div class="card">
+
+💡
+
+<h3>Career Assistance</h3>
+
+<p>
+Roadmaps & Learning Plans
+</p>
+
+</div>
+
+<div class="card">
+
+🤖
+
+<h3>AI Assistant</h3>
+
+<p>
+Available 24/7
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CHAT BUTTON -->
+
+<button class="chat-float-btn" onclick="openChat()">
+🤖
+</button>
+
+<!-- CHAT MODAL -->
+
+<div class="chat-modal" id="chatModal">
+
+<div class="chat-container">
+
+<div class="chat-header">
+
+<h2>VisionAI Assistant</h2>
+
+<span class="close-btn" onclick="closeChat()">
+✕
+</span>
+
+</div>
+
+<div class="chat-body" id="chatBody">
+
+<div class="message">
+
+<div class="bubble">
+
+👋 Welcome to VisionAI!
+
+<br><br>
+
+Ask me about:
+
+<br>
+
+💻 Software Engineer
+
+<br>
+
+🎨 Frontend Developer
+
+<br>
+
+⚙️ Backend Developer
+
+<br>
+
+🤖 AI Engineer
+
+<br>
+
+📄 Resume Building
+
+<br>
+
+🎤 Interview Preparation
+
+</div>
+
+</div>
+
+</div>
+
+<div class="chat-footer">
+
+<input
+type="text"
+id="messageInput"
+placeholder="Ask VISIONAI..."
+>
+
+<button onclick="sendMessage()">
+Send
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>
+VISIONAI
+</h3>
+
+<p>
+Your AI Guide To Software & IT Careers
+</p>
+
+<p class="creator">
+Built for Future Innovators
+</p>
+
+<p class="name-highlight">
+✨ Tejaswini Kandulapati ✨
+</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
